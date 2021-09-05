@@ -1,0 +1,71 @@
+/* Opacity; margin */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body img.background {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+section#box {
+
+    color: pink;
+    background-color: RGBA(3, 3, 3, 0.6);
+    width: 60vw;
+    height: auto;
+    border-radius: 10px;
+
+    /* Center */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ 
+    /* CSS Flexbox */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+div {
+
+    color: seashell;
+    background-color: black;
+    opacity: 0.7;
+    width: 08vw;
+    height: 08vh;
+    border-radius: 10px;
+    /*border-color: turquoise;
+    border-style: solid;*/
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
+
+    /*Fonte */
+    font-size:xx-large;
+    
+    /* CSS Flexbox */
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+
+
+
+/* https://www.w3.org/Style/Examples/007/center.pt_BR.html  
+https://tableless.com.br/centralizando-um-objeto-na-horizontal-e-vertical-com-css/?utm_source=tablelessRelatedLink
+*/
